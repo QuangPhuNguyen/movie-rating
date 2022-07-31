@@ -1,0 +1,21 @@
+/*img {
+  max-width: 100%;
+}*/
+
+.App {
+  text-align: center;
+}
+.movie-rating img {
+  width: 50%;
+}
+
+@media only screen and (min-width: 650px) {
+  .movies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+  }
+}
